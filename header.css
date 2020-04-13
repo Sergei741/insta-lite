@@ -1,0 +1,68 @@
+.header {
+     background-color: #f7f6c1;
+     border: 1px solid black;
+     border-radius: 5px;
+     width: 1200px;
+     height: 70px;
+     display: flex;
+     align-items: center;
+     position: fixed;
+     top: 0;
+     z-index: 100;
+     left:50%;
+     transform: translateX(-50%);
+}
+/* Лого */
+.header_insta {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 100%;
+     margin: 0 15px;
+}
+
+.insta_logo {
+     font-family: 'Dancing Script', cursive;
+     font-size: 30px;
+}
+.Instagramlite {
+     text-decoration: none;
+}
+/* Поиск */
+.insta_search {
+     align-items: center;
+     text-align: center;
+}
+input {
+     text-align: center;
+}
+
+/* Навигация */
+.insta_nav {
+     display: flex;
+     align-items: center;
+     text-align: center;
+}
+.navigation {
+     display: flex;
+}
+.nav {
+     width: 32px;
+     height: 30px;
+     margin-right: 25px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.nav:last-child {
+     margin-right: 0;
+}
+.far, .fas {
+     font-size: 29px;
+}
+.message {
+
+}
+.world {
+
+}
