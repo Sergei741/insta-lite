@@ -211,17 +211,24 @@ button {
 .right_bar {
      position: fixed;
      left: 70%;
-     display: flex;
-     max-width: 30%;
+     display: block;
+     width: 340px;
 }
-.stories {
+.bar_stor_recomm {
+     display: block;
+     width: 100%;
+}
+.stor_recomm {
      display: flex;
      width: 100%;
+     border: 1px solid black;
+     border-radius: 5px;
      margin-bottom: 30px;
 }
+.stor_recomm:last-child {
+     margin-bottom: 0;
+}
 
+.header_story_recom {
 
-.recomend {
-     display: flex;
-     width: 100%;
 }
