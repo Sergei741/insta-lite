@@ -211,16 +211,21 @@ button {
 .right_bar {
      position: fixed;
      left: 70%;
-     display: block;
-     width: 340px;
+     display: flex;
+     width: 300px;
+     height: 400px;
+     flex-direction: column;
 }
 .bar_stor_recomm {
      display: block;
      width: 100%;
+     height: 100%;
 }
 .stor_recomm {
      display: flex;
      width: 100%;
+     height: 200px;
+
      border: 1px solid black;
      border-radius: 5px;
      margin-bottom: 30px;
@@ -228,7 +233,24 @@ button {
 .stor_recomm:last-child {
      margin-bottom: 0;
 }
-
+.link_story_recom a {
+     font-weight: bold;
+}
 .header_story_recom {
+     width: 100%;
+     display: flex;
+     height: 30px;
+     border-bottom: 1px solid black;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     background-color: #f7f6c1;
 
+}
+.header_bar {
+     width: 100%;
+     display: flex;
+     height: 100%;
+     margin: 0 7px;
+     align-items: center;
+     justify-content: space-between;
 }
