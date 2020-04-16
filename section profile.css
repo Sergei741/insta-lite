@@ -1,0 +1,73 @@
+.section_profile {
+     display: flex;
+     width: 1202px;
+     height: 300px;
+     margin: 0 auto;
+     margin-top: 100px;
+     /* border: 1px solid black; */
+     justify-content: center;
+}
+
+.profile {
+     display: flex;
+     width: 70%;
+     height: 100%;
+     justify-content: center;
+}
+/* photo */
+.photo {
+     display: flex;
+     width: 30%;
+     height: 250px;
+     justify-content: center;
+     align-items: center;
+}
+.img_profile {
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     object-fit: cover;
+}
+/* /photo */
+
+.info_profile {
+     margin-left: 40px;
+     display: block;
+     width: 70%;
+     height: 250px;
+
+}
+.user_edit {
+     display: flex;
+     width: 100%;
+     height: 50px;
+     align-items: center;
+     padding-top: 10px;
+     margin-bottom: 20px;
+}
+.edit {
+     margin-left: 15px;
+}
+.edit_profile {
+     letter-spacing: 2px;
+}
+
+.num_card {
+     display: flex;
+     padding: 0;
+     margin: 0;
+     margin-bottom: 30px;
+     list-style: none;
+     width: 100%;
+     height: 30px;
+}
+.num_publ {
+     display: flex;
+     margin-right: 30px;
+}
+.num_publ:last-child {
+     margin-right: 0;
+}
+.publ {
+     font-weight: bold;
+}

@@ -1,0 +1,31 @@
+.menu_content {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 1201px;
+     height: 35px;
+     margin: 0 auto;
+     border-top: 1px solid lightgrey;
+}
+.contents {
+     margin-right: 50px;
+     height: 100%;
+     align-items: center;
+     display: flex;
+}
+.contents:last-child {
+     margin-right: 0;
+}
+.button_contents {
+     display: flex;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     height: 100%;
+     padding: 0;
+     margin: 0;
+     opacity: .8;
+     border: 0;
+}
+.button_contents:hover {
+     border-top: 1px solid black;
+}
