@@ -6,6 +6,7 @@
      margin-top: 100px;
      /* border: 1px solid black; */
      justify-content: center;
+     /* opacity: .9; */
 }
 
 .profile {
@@ -50,6 +51,9 @@
 }
 .edit_profile {
      letter-spacing: 2px;
+     border: 0;
+     background-color: lightgrey;
+     border-radius: 5px;
 }
 
 .num_card {
@@ -64,6 +68,7 @@
 .num_publ {
      display: flex;
      margin-right: 30px;
+     letter-spacing: 1px;
 }
 .num_publ:last-child {
      margin-right: 0;
