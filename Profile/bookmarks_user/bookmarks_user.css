@@ -1,0 +1,10 @@
+.bookmarks_user {
+     border-top: 1px solid black;
+}
+
+.section_contents {
+     width: 1201px;
+     height: auto;
+     display: grid;
+     margin-top: 5px;
+}

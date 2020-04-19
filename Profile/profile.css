@@ -27,6 +27,34 @@
      opacity: .8;
      border: 0;
 }
+.publ_user {
+     border-top: 1px solid black;
+}
 .button_contents:hover {
      border-top: 1px solid black;
+}
+
+/* section_publ */
+.section_publ {
+     width: 1202px;
+     margin: 5px auto 10px;
+     height: auto;
+     justify-content: space-between;
+}
+.publ_content {
+     width: 100%;
+     display: grid;
+     grid-template-columns: repeat(3, 350px);
+     grid-gap: 20px;
+     justify-content: center;
+}
+.publ_content>div {
+     width: 350px;
+     height: 300px;
+     object-fit: cover;
+}
+.user_photo {
+     object-fit: cover;
+     width: inherit;
+     height: inherit;
 }
