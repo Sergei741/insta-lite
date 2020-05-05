@@ -76,3 +76,16 @@
 .publ {
      font-weight: bold;
 }
+
+@media screen and (max-width: 1200px) {
+     .section_profile {
+          width: 1102px;
+          height: 250px;
+     }
+}
+@media screen and (max-width: 1120px) {
+     .section_profile {
+          width: 1002px;
+          margin-top: 80px;
+     }
+}
